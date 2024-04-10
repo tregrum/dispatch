@@ -1,6 +1,2 @@
--- local function write_markdown_code_block()
---   print("plugin/dispatch.lua is loaded!")
--- end
 --
 --
--- vim.keymap.set("n", "<C-x>", write_markdown_code_block)

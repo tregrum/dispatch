@@ -36,9 +36,6 @@ local function get_code_block()
         end
 
         return language, code_lines
-        --    else
-        --       print('Not in a Markdown file.')
-        --      return nil
     end
 end
 
@@ -60,7 +57,6 @@ local function write_to_file(language, contents)
 end
 
 
---function M.WriteMarkdownCodeBlockToFile(filename)
 function M.WriteMarkdownCodeBlockToFile()
     local language, code_lines = get_code_block()
     if code_lines then
